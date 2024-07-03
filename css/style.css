@@ -3,8 +3,192 @@
     --mainlogo-color: #2196F3;
     --maincolor-color: #212121;
     --background-color: #2F303A;
-    --footeraddres-color:rgba(255, 255, 255, 0.60)
-    --toplinenumber-color #757575;
+    --numberline-color:#757575;
     --sectionbg-color: #F5F4FA;
+    --title-color: #FFFF;
+    --footertitle-color:rgba(255, 255, 255, 0.60);
+}
 
+body {
+    font-family: "Roboto";
+    color: var(--maincolor-color);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-logo{
+    color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.header-web{
+    color: var(--mainlogo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.nav-list{
+    color: var(--maincolor-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.nav-list:hover,
+.nav-list:focus{
+      color: var(--mainlogo-color);
+}
+
+.address-list{
+    color: var(--numberline-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.address-list:hover,
+.address-list:focus{
+      color: var(--mainlogo-color);
+}
+
+.main-hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--background-color);
+}
+
+.title-hero{
+    color: var(--title-color);
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36; 
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+
+.main-button{
+    color: var(--title-color);
+    background-color: var(--mainlogo-color);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87; 
+letter-spacing: 0.96px;
+}
+
+.main-project{
+    padding-top: 94px;
+}
+
+.project-name{
+    color: var(--maincolor-color);
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.project-tag{
+    color: var(--numberline-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
+
+.main-service{
+    padding-top: 94px;
+    background-color: var(--title-color);
+}
+
+.service-title{
+    color: var(--maincolor-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+}
+
+.team-section{
+    background-color: var(--sectionbg-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title{
+    color: var(--maincolor-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+}
+
+.main-footer{
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-web{
+    color: var(--mainlogo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1,38;
+letter-spacing: 0.78px;
+}
+
+.footer-studio{
+    color: var(--title-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.address-map{
+    color: var(--title-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
+
+.address-footer{
+    color: var(--footertitle-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
+
+.tel-footer{
+    color: var(--footertitle-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
 }
