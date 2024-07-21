@@ -18,6 +18,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px solid blueviolet;
 }
 
 .header{
@@ -118,6 +119,7 @@ letter-spacing: 0.42px;
 
 .main-service{
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--title-color);
 }
 
