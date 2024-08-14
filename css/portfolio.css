@@ -7,10 +7,11 @@
     --sectionbg-color: #F5F4FA;
     --title-color: #FFFF;
     --footertitle-color:rgba(255, 255, 255, 0.60);
+    --portfolio-header-line: #ECECEC;
 }
 
 
-.body {
+body {
 font-family: "Roboto";
 }
 
@@ -20,6 +21,68 @@ margin: 0 auto;
 padding: 0 15px;
 }
 
+.header-top{
+    align-items: center;
+    display: flex;
+}
+
+.header-port{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    outline: 1px var(--portfolio-header-line) solid;
+}
+
+.header-ul-port{
+    display: flex;
+    gap: 50px;
+}
+
+.address-port{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.port-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.port-page{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.item-port{
+    border: 1px solid #EEE;
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.item-port:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.port-discription{
+    padding: 20px 24px 20px 24px;
+}
+
+.work-port{
+    color: var(--numberline-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.87; /* 187.5% */
+letter-spacing: 0.48px;
+margin-top: 4px;
+}
+
+.port-img{
+    width: 100%;
+}
+
 .header-port {
 padding-top: 24px;
 padding-bottom: 25px;
@@ -27,16 +90,17 @@ padding-bottom: 25px;
 
 .header-logo{
 color: var(--logo-color);
-font-family: Raleway;
+font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+margin-right: 93px;
 }
 
 .header-web{
 color: var(--mainlogo-color);
-font-family: Raleway;
+font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
@@ -122,6 +186,8 @@ line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
 border-radius: 4px;
 background: #F5F4FA;
+border: none;
+padding: 6px 25px;
 }
 
 .port-button:hover{
@@ -135,6 +201,8 @@ font-weight: 500;
 line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
 border-radius: 4px;
+border: none;
+
 }
 
 .name-port{
@@ -158,8 +226,8 @@ background-color: var(--background-color);
 }
 
 .footer-web{
-color: var(--mainlogo-color);
-font-family: Raleway;
+color: var(--title-color);
+font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1,38;
@@ -167,8 +235,8 @@ letter-spacing: 0.78px;
 }
 
 .footer-studio{
-color: var(--title-color);
-font-family: Raleway;
+color: var(--mainlogo-color);
+font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
@@ -197,5 +265,13 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+
+.address-list-port{
+    margin-top: 9px;
+}
+
+.address{
+    margin-top: 20px;
 }
 
