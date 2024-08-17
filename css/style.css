@@ -127,6 +127,10 @@ letter-spacing: 0.28px;
       color: var(--mainlogo-color);
 }
 
+.nav-list-visited:visited {
+    color: var(--mainlogo-color);
+   }
+
 .address-list{
     color: var(--numberline-color);
 font-size: 14px;
@@ -141,9 +145,14 @@ letter-spacing: 0.28px;
 }
 
 .main-hero{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: var(--background-color);
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.40),
+    rgba(47, 48, 58, 0.40)),
+url("../img/hero-back.webp");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 200px 0;
 }
 
 .title-hero{
@@ -160,18 +169,16 @@ text-transform: uppercase;
 .main-button{
     color: var(--title-color);
     background-color: var(--mainlogo-color);
-text-align: center;
-font-size: 16px;
-font-weight: 700;
-line-height: 1.87; 
-letter-spacing: 0.96px;
-width: 216px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 4px;
-border: none;
-margin-top: 30px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    margin-top: 30px;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .main-project{
@@ -209,6 +216,7 @@ margin-top: 10px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 
 .team-section {
