@@ -8,6 +8,7 @@
     --sectionbg-color: #F5F4FA;
     --title-color: #FFFF;
     --footertitle-color:rgba(255, 255, 255, 0.60);
+    --svg-color: #AFB1B8;
 }
 
 body {
@@ -19,7 +20,6 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    border: 2px red solid;
 }
 
 .header-top{
@@ -36,6 +36,10 @@ body {
 .header-list{
     display: flex;
     gap: 50px;
+}
+
+.email-links {
+    
 }
 
 .hero-box{
@@ -245,6 +249,87 @@ margin-bottom: 58px;
     letter-spacing: 0.48px;
     margin-top: 10px;
 }
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.social-img {
+    fill: var(--svg-color);
+    width: 20px;
+height: 20px;
+}
+
+.clients-links:hover,
+.clients:focus {
+    border-radius: 50%;
+    background-color: var(--mainlogo-color);
+    .social-img {
+        fill: var(--sectionbg-color);
+    }
+}
+
+.clients-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+/* sect */
+
+.clients-section {
+    padding: 94px 0;
+}
+
+.client-title {
+    color: var(--maincolor-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.web-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--svg-color);
+    padding: 16px 32px;
+}
+
+.clients-svg {
+    width: 106px;
+height: 60px;
+flex-shrink: 0;
+fill: var(--svg-color);
+}
+
+.web-link:hover, 
+.web-link:focus {
+    border-radius: 4px;
+    border: 1px solid var(--mainlogo-color);
+    .clients-svg {
+        fill: var(--mainlogo-color);
+    }
+}
+
+/* sect */
+
 
 .name-team{
     color: var(--maincolor-color);
