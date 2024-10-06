@@ -33,13 +33,29 @@ body {
     margin-left: auto;
 }
 
+.address-list {
+    display: flex;
+    align-items: center;
+}
+
+
 .header-list{
     display: flex;
     gap: 50px;
 }
 
 .email-links {
-    
+    width: 16px;
+height: 12px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+
+.tele-links {
+    width: 10px;
+height: 16px;
+flex-shrink: 0;
+margin-right: 10px;
 }
 
 .hero-box{
@@ -147,6 +163,21 @@ letter-spacing: 0.28px;
 .address-list:hover,
 .address-list:focus{
       color: var(--mainlogo-color);
+      .email-links {
+        fill: var(--mainlogo-color);
+      }
+
+      .tele-links {
+        fill: var(--mainlogo-color);
+      }
+}
+
+.email-links {
+    fill: var(--numberline-color);
+}
+
+.tele-links {
+    fill: var(--numberline-color);
 }
 
 .main-hero{
@@ -299,8 +330,7 @@ margin-bottom: 50px;
 
 .client-list {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .web-link {
@@ -393,7 +423,6 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
-
 }
 
 .address-footer{
@@ -419,3 +448,61 @@ letter-spacing: 0.42px;
 .contacts-list{
     margin-top: 9px;
 }
+
+/* join */
+
+
+.footer-join {
+    color: var(--main-background);
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.footer-all {
+    display: flex;
+    align-items: baseline;;
+}
+
+.footer-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-box {
+    margin-right: 70px;
+    padding-right: 25px;
+}
+
+.footer-links {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.footer-svg {
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+fill: var(--main-background);
+}
+
+.footer-links:hover,
+.footer-links:focus {
+    border-radius: 50%;
+    background-color: var(--mainlogo-color);
+}
+
+
