@@ -106,11 +106,11 @@ margin-right: 10px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.port-discription{
+.port-discription {
     padding: 20px 24px 20px 24px;
 }
 
-.work-port{
+.work-port {
     color: var(--numberline-color);
 font-size: 16px;
 font-weight: 400;
@@ -119,9 +119,39 @@ letter-spacing: 0.48px;
 margin-top: 4px;
 }
 
-.port-img{
+.pages {
+    position: relative;
+    overflow: hidden;
+}
+
+.pages:hover {
+    .label-page {
+        opacity: 1;
+    }
+}
+
+.port-img {
     width: 100%;
 }
+
+.label-page {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    color: var(--title-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.56; /* 155.556% */
+letter-spacing: 0.54px;
+background: rgba(33, 150, 243, 0.90);
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+padding: 63px 24px;
+}
+
 
 .header-port {
 padding-top: 24px;
