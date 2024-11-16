@@ -587,7 +587,7 @@ position: relative;
 }
 
 .modal-input {
-    width: 448px;
+    width: 438px;
 height: 40px;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
@@ -597,14 +597,38 @@ display: block;
 padding-left: 40px;
 }
 
+.modal-input:hover,
+.modal-input:focus {
+        border: none;
+        outline: 1px solid var(--mainlogo-color);
+}
+
+.modal-input:hover + .modal-icon,
+.modal-input:focus + .modal-icon {
+    fill: var(--mainlogo-color);
+}
+
+.modal-input:hover + .modal-iconman,
+.modal-input:focus + .modal-iconman {
+    fill: var(--mainlogo-color);
+}
 
 .modal-icon {
     width: 18px;
 height: 18px;
 fill: var(--maincolor-color);
 position: absolute;
-top: 11px;
+top: 13px;
 left: 10px;
+}
+
+.modal-iconman {
+    width: 14px;
+    height: 14px;
+    fill: var(--maincolor-color);
+    position: absolute;
+    top: 13px;
+    left: 12px;
 }
 
 
@@ -625,6 +649,12 @@ display: block;
 padding: 12px 16px;
 margin-top: 4px;
 margin-bottom: 25px;
+}
+
+.modal-coment:hover,
+.modal-coment:focus {
+    border: none;
+    outline: 1px solid var(--mainlogo-color);
 }
 
 
@@ -681,6 +711,13 @@ border: none;
 margin-top: 30px;
 }
 
+.modal-btn:hover,
+.modal-btn:focus {
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+outline: 0px solid transparent;
+}
+
+
 .modal-close {
     width: 30px;
     height: 30px;
@@ -693,6 +730,14 @@ margin-top: 30px;
     top: 8px;
     right: 8px;
     background-color: transparent;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    outline: 0px solid transparent;
+    .modal-exit {
+        fill: var(--mainlogo-color);
+    }
 }
 
 .modal-exit {
