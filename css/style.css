@@ -27,13 +27,13 @@ body {
     display: flex;
 }
 
-.address-header{
+.header-address{
     display: flex;
     gap: 30px;
     margin-left: auto;
 }
 
-.address-list {
+.header-links {
     display: flex;
     align-items: center;
 }
@@ -48,13 +48,13 @@ body {
     position: relative;
 }
 
-.email-links {
+.header-email {
     width: 16px;
 height: 12px;
 margin-right: 10px;
 }
 
-.tele-links {
+.header-tele {
     width: 10px;
 height: 16px;
 margin-right: 10px;
@@ -67,7 +67,7 @@ margin-right: 10px;
     justify-content: center;
 }
 
-.project{
+.project-list {
     display: flex;
     gap: 30px;
 }
@@ -102,7 +102,7 @@ margin-right: 10px;
     gap: 30px;
 }
 
-.title-hero {
+.hero-title {
     color: var(--main-background);
     text-align: center;
     font-size: 44px;
@@ -182,13 +182,20 @@ letter-spacing: 0.28px;
       color: var(--mainlogo-color);
 }
 
+.nav-list-visited {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
 .nav-list-visited:visited {
     border: none;
     outline: 0px solid transparent;
     color: var(--mainlogo-color);
    }
 
-.address-list{
+.header-links {
     color: var(--numberline-color);
 font-size: 14px;
 font-weight: 500;
@@ -196,28 +203,32 @@ line-height: 1.14;
 letter-spacing: 0.28px;
 }
 
-.address-list:hover,
-.address-list:focus{
+.header-links:hover,
+.header-links:focus{
     outline: 0px solid transparent;
       color: var(--mainlogo-color);
-      .email-links {
+      .header-email {
         fill: var(--mainlogo-color);
       }
 
-      .tele-links {
+      .header-tele {
         fill: var(--mainlogo-color);
       }
 }
 
-.email-links {
+.header-email {
     fill: var(--numberline-color);
 }
 
-.tele-links {
+.header-tele {
     fill: var(--numberline-color);
 }
 
-.main-hero{
+/* ======================== */
+
+
+
+.hero-main{
     background-image: linear-gradient(to right,
     rgba(47, 48, 58, 0.40),
     rgba(47, 48, 58, 0.40)),
@@ -228,18 +239,8 @@ background-size: cover;
 padding: 200px 0;
 }
 
-.title-hero{
-    color: var(--title-color);
-text-align: center;
-font-size: 44px;
-font-weight: 900;
-line-height: 1.36; 
-letter-spacing: 2.64px;
-text-transform: uppercase;
 
-}
-
-.main-button{
+.hero-button{
     color: var(--title-color);
     background-color: var(--mainlogo-color);
     text-align: center;
@@ -254,7 +255,7 @@ text-transform: uppercase;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.main-project{
+.project-main{
     padding-top: 94px;
 }
 
@@ -454,7 +455,7 @@ fill: var(--svg-color);
     border-radius: 0px 0px 4px 4px;
 }
 
-.main-footer{
+.footer-mainsect{
     background-color: var(--background-color);
     padding-top: 60px;
     padding-bottom: 60px;

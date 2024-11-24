@@ -1,0 +1,52 @@
+
+.project-main{
+    padding-top: 94px;
+}
+
+.project-list {
+    display: flex;
+    gap: 30px;
+}
+
+.project-item::before {
+    content: "";
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--sectionbg-color);
+    background-image: url(../img/astronaut.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-item:nth-child(1)::before {
+    background-image: url(../img/location-anten.png);
+}
+
+.project-item:nth-child(2)::before {
+    background-image: url(../img/clock.png);
+}
+
+.project-item:nth-child(3)::before {
+    background-image: url(../img/diagram.png);
+}
+
+.project-name {
+    color: var(--maincolor-color);
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.project-tag {
+    color: var(--numberline-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+margin-top: 10px;
+}
