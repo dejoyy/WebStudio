@@ -14,7 +14,8 @@ margin-bottom: 50px;
 
 .client-list {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    // justify-content: space-between;
 }
 
 .clients-svg {

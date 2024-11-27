@@ -102,6 +102,12 @@ letter-spacing: 0.28px;
 }
 
 .header-links {
+    display: flex;
+    align-items: center;
+}   
+
+
+.header-links {
     color: var(--numberline-color);
 font-size: 14px;
 font-weight: 500;
@@ -126,10 +132,13 @@ letter-spacing: 0.28px;
     width: 16px;
 height: 12px;
 margin-right: 10px;
+fill: var(--numberline-color);
 }
 
 .header-tele {
     width: 10px;
-height: 16px;
+height: 16px;   
 margin-right: 10px;
+fill: var(--numberline-color);
 }
+

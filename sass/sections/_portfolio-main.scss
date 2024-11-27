@@ -1,12 +1,12 @@
-.header-top{
-    align-items: center;
-    display: flex;
-}
-
 .header-port{
     padding-top: 24px;
     padding-bottom: 25px;
     outline: 1px var(--portfolio-header-line) solid;
+}
+
+.header-top{
+    align-items: center;
+    display: flex;
 }
 
 .header-ul-port{
@@ -143,6 +143,7 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 margin-right: 93px;
+outline: 0px solid transparent;
 }
 
 .header-web{
