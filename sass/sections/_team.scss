@@ -1,0 +1,89 @@
+.team-section {
+    background-color: var(--sectionbg-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title {
+    color: var(--maincolor-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+margin-bottom: 58px;
+}
+
+.team-ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.team-select{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-img{
+    width: 270px;
+    height: 260px;
+}
+
+.team-discription {
+    padding: 30px 0;
+    background-color: var(--main-background);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-name{
+    color: var(--maincolor-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+}
+
+.team-work {
+    color: var(--numberline-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.social-links:hover,
+.social-links:focus {
+    border: none;
+    outline: 0px solid var(--mainlogo-color);
+    border-radius: 50%;
+    background-color: var(--mainlogo-color);
+    .social-img {
+        fill: var(--sectionbg-color);
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.social-img {
+    fill: var(--svg-color);
+    width: 20px;
+height: 20px;
+}

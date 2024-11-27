@@ -277,7 +277,7 @@ letter-spacing: 0.42px;
 margin-top: 10px;
 }
 
-.main-service {
+.service-main {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--title-color);
@@ -293,7 +293,7 @@ margin-top: 10px;
     margin-bottom: 50px;
 }
 
- .textpost {
+ .text__post {
     color: var(--main-background);
     text-align: center;
     font-size: 14px;
@@ -303,7 +303,7 @@ margin-top: 10px;
     text-transform: uppercase;
  }
 
- .position {
+ .serv__position {
     width: 370px;
     height: 70px;
     background: rgba(47, 48, 58, 0.80);
@@ -330,7 +330,7 @@ letter-spacing: 1.08px;
 margin-bottom: 58px;
 }
 
-.work-team {
+.team-work {
     color: var(--numberline-color);
     text-align: center;
     font-size: 16px;
@@ -354,8 +354,8 @@ margin-bottom: 58px;
 height: 20px;
 }
 
-.clients-links:hover,
-.clients-links:focus {
+.social-links:hover,
+.social-links:focus {
     border: none;
     outline: 0px solid var(--mainlogo-color);
     border-radius: 50%;
@@ -365,7 +365,7 @@ height: 20px;
     }
 }
 
-.clients-links {
+.social-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,9 +412,7 @@ fill: var(--svg-color);
 
 .web-link:hover, 
 .web-link:focus {
-    border: none;
-    border-radius: 4px;
-    outline: 1px solid var(--mainlogo-color);
+    border-color: var(--mainlogo-color);
     .clients-svg {
         fill: var(--mainlogo-color);
     }
@@ -423,7 +421,7 @@ fill: var(--svg-color);
 /* sect */
 
 
-.name-team{
+.team-name{
     color: var(--maincolor-color);
     text-align: center;
     font-size: 16px;
@@ -439,12 +437,12 @@ fill: var(--svg-color);
 }
 
 
-.img-team{
+.team-img{
     width: 270px;
     height: 260px;
 }
 
-.workers-discription {
+.team-discription {
     padding: 30px 0;
     background-color: var(--main-background);
     border-radius: 0px 0px 4px 4px;
@@ -479,7 +477,7 @@ line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
-.address-map{
+.footer-map{
     color: var(--title-color);
 font-size: 14px;
 font-weight: 400;
@@ -487,7 +485,7 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 }
 
-.address-footer{
+.footer-address{
     color: var(--footertitle-color);
 font-size: 14px;
 font-weight: 400;
@@ -495,7 +493,7 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 }
 
-.tel-footer{
+.footer-tel{
     color: var(--footertitle-color);
     font-size: 14px;
     font-weight: 400;
@@ -503,11 +501,11 @@ letter-spacing: 0.42px;
     letter-spacing: 0.42px;
 }
 
-.main-address{
+.footer-info{
     margin-top: 20px;
 }
 
-.contacts-list{
+.footer-contacts {
     margin-top: 9px;
 }
 

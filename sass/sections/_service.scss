@@ -1,0 +1,43 @@
+.service-main {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--title-color);
+}
+
+.service-title {
+    color: var(--maincolor-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.service-list {
+    display: flex;
+    gap: 30px;
+}
+
+.text__post {
+    color: var(--main-background);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+ }
+
+.serv__position {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1437px;
+ }
+
+ 
