@@ -40,6 +40,9 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list::after {
@@ -61,6 +64,7 @@ letter-spacing: 0.28px;
 
 .nav-list:hover,
 .nav-list:focus{
+    border: none;
     outline: 0px solid transparent;
       color: var(--mainlogo-color);
 }
@@ -77,6 +81,12 @@ letter-spacing: 0.28px;
     outline: 0px solid transparent;
     color: var(--mainlogo-color);
    }
+
+.nav-list-visited:hover,
+.nav-list-visited:focus {
+    border: none;
+    outline: 0px solid transparent;
+}
 
 
 .nav-list-visited::after {
@@ -113,6 +123,9 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-links:hover,
@@ -133,6 +146,9 @@ letter-spacing: 0.28px;
 height: 12px;
 margin-right: 10px;
 fill: var(--numberline-color);
+transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-tele {
@@ -140,5 +156,8 @@ fill: var(--numberline-color);
 height: 16px;   
 margin-right: 10px;
 fill: var(--numberline-color);
+transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 

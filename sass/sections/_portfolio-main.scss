@@ -37,6 +37,9 @@ margin-right: 10px;
 .address-list-port {
     display: flex;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -54,10 +57,16 @@ margin-right: 10px;
 
 .email-links {
     fill: var(--numberline-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tele-links {
     fill: var(--numberline-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port-list {
@@ -127,6 +136,7 @@ width: 370px;
 height: 294px;
 flex-shrink: 0;
 padding: 63px 24px;
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -173,6 +183,9 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list-port::after {
@@ -269,6 +282,9 @@ border-radius: 4px;
 background: #F5F4FA;
 border: none;
 padding: 6px 25px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port-button:hover{
@@ -394,6 +410,7 @@ letter-spacing: 1.08px;
         align-items: center;
         width: 44px;
         height: 44px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .footer-svg {

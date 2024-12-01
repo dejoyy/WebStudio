@@ -94,6 +94,7 @@ text-transform: uppercase;
     align-items: center;
     width: 44px;
     height: 44px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links:hover,
@@ -159,6 +160,11 @@ margin-bottom: 20px;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
     border: transparent;
+    }
+
+    .form-btn:focus {
+        border: none;
+        outline: 0px solid transparent;
     }
 
     .form-svg {
