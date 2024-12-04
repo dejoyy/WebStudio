@@ -34,7 +34,7 @@ letter-spacing: 0.78px;
     gap: 50px;
 }
 
-.nav-list{
+.nav-list {
     color: var(--maincolor-color);
 font-size: 14px;
 font-weight: 500;
@@ -56,9 +56,12 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 0;
     bottom: -34px;
     opacity: 0;
+    transform: scale(0,0);
+    transition: transform 2000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list:hover::after {
+    transform: scale(1);
     opacity: 1;
 }
 

@@ -99,9 +99,12 @@ body {
   left: 0;
   bottom: -34px;
   opacity: 0;
+  transform: scale(0, 0);
+  transition: transform 2000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list:hover::after {
+  transform: scale(1);
   opacity: 1;
 }
 
@@ -772,6 +775,7 @@ body {
 
 .pages:hover .label-page {
   opacity: 1;
+  transform: translate(0, 0);
 }
 
 .port-img {
@@ -795,6 +799,7 @@ body {
   flex-shrink: 0;
   padding: 63px 24px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(0, 100%);
 }
 
 .header-port {
@@ -854,10 +859,15 @@ body {
   left: 0;
   bottom: -34px;
   opacity: 0;
+  transform: scale(0);
+  transition-property: transform;
+  transition-duration: 2000ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list-port:hover::after {
   opacity: 1;
+  transform: scale(1);
 }
 
 .navigation-list-port:hover {

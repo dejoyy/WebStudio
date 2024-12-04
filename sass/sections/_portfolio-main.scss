@@ -113,6 +113,7 @@ margin-top: 4px;
 .pages:hover {
     .label-page {
         opacity: 1;
+        transform: translate(0,0);
     }
 }
 
@@ -137,6 +138,7 @@ height: 294px;
 flex-shrink: 0;
 padding: 63px 24px;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transform: translate(0,100%);
 }
 
 
@@ -199,10 +201,15 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 0;
     bottom: -34px;
     opacity: 0;
+    transform: scale(0);
+    transition-property: transform;
+    transition-duration: 2000ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list-port:hover::after {
     opacity: 1;
+    transform: scale(1);
 }
 
 .navigation-list-port:hover {
