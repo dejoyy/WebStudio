@@ -18,6 +18,16 @@ letter-spacing: 0.78px;
 margin-right: 93px;
 border: none;
 outline: 0px solid transparent;
+animation: logo-scale 5000ms alternate infinite;
+}
+
+@keyframes logo-scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
 }
 
 .header-web{

@@ -25,6 +25,19 @@ padding: 200px 0;
     letter-spacing: 2.64px;
     text-transform: uppercase;
     width: 696px;
+    animation-name: title-move;
+    animation-duration: 2000ms;
+}
+
+@keyframes title-move{
+    0%{
+     transform: translateX(-1500px) scale(0);
+     color: var(--mainlogo-color);
+    }
+    100%{
+    transform: translateX(0) scale(1);
+    color: var(--title-color);
+    }
 }
 
 .hero-button{
@@ -40,6 +53,22 @@ padding: 200px 0;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    animation-name: button-move;
+    animation-duration: 2000ms;
+}
+
+@keyframes button-move{
+    0%{
+        transform: translateX(1500px) rotate(0) scale(0);
+        color: var(--mainlogo-color);
+        background-color: red;
+       
+       }
+       100%{
+       transform: translateX(0) rotate(360deg) scale(1);
+        color: var(--title-color);
+         background-color: aquamarine; 
+       }
 }
 
 .hero-button:focus {
